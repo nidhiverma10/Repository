@@ -1,0 +1,15 @@
+class Employee
+{
+
+char Name;
+int Age;
+
+Employee()
+{
+}
+
+Employee(char Name,int Age)
+{
+this.Name=Name;
+this.Age=Age;
+}

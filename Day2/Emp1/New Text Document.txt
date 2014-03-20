@@ -1,0 +1,14 @@
+class EmployeeTest
+{
+public static void main(String args[])
+{
+Scanner scan=new scanner(System.in);
+Employee emp=new Employee();
+
+emp.setName(scan.next());
+emp.setAge(scan.nextInt());
+
+System.out.println(emp.getName+" "+emp.getAge);
+
+}
+}
